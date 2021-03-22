@@ -8,13 +8,63 @@ body{
 .top-nav *{
     color: #adb2ba;
 }
-.top-nav .btn{
+.top-nav .btn a{
     color: #000;
 }
 .top-nav .navbar{
     background: #00002b;
     border-top: 1px solid #adb2ba;
 }
+.carousel-caption{
+    color: #00002b;
+}
+.carousel-caption h1{
+    color: #00002b;
+    font-size: 90px;
+    font-weight: 900;
+}
+.carousel-caption p{
+    color: #00002b;
+    font-size: 30px;
+    /* font-weight: 900; */
+}
+.offerings p{
+    line-height: 26px;
+}
+blockquote {
+    font-family: Georgia, serif;
+    font-size: 20px;
+    font-style: italic;
+    width: 100%;
+    margin: 0.25em 0;
+    padding: 0.35em 40px;
+    line-height: 1.45;
+    position: relative;
+    color: #383838;
+}
+
+blockquote:before {
+    display: block;
+    padding-left: 10px;
+    content: "\201C";
+    font-size: 80px;
+    position: absolute;
+    left: -20px;
+    top: -20px;
+    color: #7a7a7a;
+}
+
+blockquote cite {
+    color: #999999;
+    font-size: 14px;
+    display: block;
+    margin-top: 5px;
+}
+
+blockquote cite:before {
+    content: "\2014 \2009";
+}
+
 .card-title-cont{
     height: 350px;
     display:flex;
@@ -24,6 +74,24 @@ body{
   .card-title, .card-text{
       color: #000;
   }
+  .card-title{
+    font-size: 26px;
+    font-weight: 700;
+    background: #eeeeee7a;
+    padding: 2% 2%;
+  }
+  .card-text{
+    font-size: 16px;
+    font-weight: 400;
+    background: #eeeeee7a;
+    padding: 2% 2%;
+  }
+  .card-img-overlay{
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+  }
   .classified{
       background: #eee;
   }
@@ -32,13 +100,32 @@ body{
   }
   .classified ul li{
       color: #00002b;
+      line-height: 30px;
+      font-size: 24px;
   }
-  .classified ul li:last-child {
+  .p1{
+    font-size: 24px;
+  }
+  .p2{
+      font-size: 20px;
+  }
+  /* .classified ul li:last-child {
     padding-top: 50px;
     font-size: 40px;
-  }
+  } */
   .subscribe{
       background: #fce3b5;
+  }
+  .subscribe *{
+      color: #000;
+  }
+  .subscribe form{
+      border: 1px solid #050579;
+      padding: 2%;
+      border-radius: 10px;
+  }
+  .subscribe button{
+      color: #eee;
   }
   .footer-socials{
       list-style: none;
@@ -49,7 +136,7 @@ body{
   }
   .footer-socials i{
       font-size: 20px;
-      border: 1px solid snow;
+      /* border: 1px solid snow;
       border-radius: 50px;
-      padding: 10px;
+      padding: 10px; */
   }
