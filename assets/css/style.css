@@ -1,0 +1,55 @@
+body{
+    background: #00002b;
+    color: #fff;
+}
+.top-nav{
+    background: #00002b;
+}
+.top-nav *{
+    color: #adb2ba;
+}
+.top-nav .btn{
+    color: #000;
+}
+.top-nav .navbar{
+    background: #00002b;
+    border-top: 1px solid #adb2ba;
+}
+.card-title-cont{
+    height: 350px;
+    display:flex;
+    justify-content: flex-start;
+    align-items: flex-end;
+  }
+  .card-title, .card-text{
+      color: #000;
+  }
+  .classified{
+      background: #eee;
+  }
+  .classified ul{
+      list-style: none;
+  }
+  .classified ul li{
+      color: #00002b;
+  }
+  .classified ul li:last-child {
+    padding-top: 50px;
+    font-size: 40px;
+  }
+  .subscribe{
+      background: #fce3b5;
+  }
+  .footer-socials{
+      list-style: none;
+  }
+  .footer-socials li{
+      display: inline;
+      margin: 2% 2%;
+  }
+  .footer-socials i{
+      font-size: 20px;
+      border: 1px solid snow;
+      border-radius: 50px;
+      padding: 10px;
+  }
